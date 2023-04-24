@@ -1,20 +1,3 @@
-// (function ($) {
-//    'use strict';
-
-//    jQuery(window).on('elementor/frontend/init', function () {
-//       elementor.channels.editor.on('namespace:editor:submit', function () {
-//          $('.honeycombs').honeycombs();
-//       });
-//    });
-
-//    /* $('.honeycombs').honeycombs(); */
-
-//    jQuery('#sekcja-plan, .ws-plan .btn-close').on('click', function (e) {
-//       e.preventDefault();
-//       jQuery('.ws-plan').toggle();
-//    });
-// })(jQuery);
-
 // ----- TABS ----- //
 const tabsBtn = document.querySelectorAll('.tabs__nav-btn');
 const tabsItems = document.querySelectorAll('.tabs__item');
@@ -121,5 +104,3 @@ document.addEventListener('click', (event) => {
       tabsContent.classList.remove('active');
    }
 });
-
-//---------------------------------------------------------------//

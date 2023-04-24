@@ -55,37 +55,61 @@
    padding: 0 10px;
 }
 
-/* ----- COLOR TABS ----- */
+/* ----- CHANGE COLOR & IMAGE CARDS ----- */
 .sekcja-sportowa {
    background-color: #ffbdbd;
+}
+.card.sekcja-sportowa .card-image img {
+   content: url('../img/sekcja-sportowa.png');
 }
 
 .sekcja-integracyjna {
    background-color: #ffdbaa;
 }
+.card.sekcja-integracyjna .card-image img {
+   content: url('../img/sekcja-integracyjna.png');
+}
 
 .sekcja-edukacyjna {
    background-color: #fdffb6;
+}
+.card.sekcja-edukacyjna .card-image img {
+   content: url('../img/sekcja-edukacyjna.png');
 }
 
 .sekcja-ascw {
    background-color: #caffbf;
 }
+.card.sekcja-ascw .card-image img {
+   content: url('../img/sekcja-ascw.png');
+}
 
 .sekcja-artystyczna {
    background-color: #9bf6ff;
+}
+.card.sekcja-artystyczna .card-image img {
+   content: url('../img/sekcja-artystyczna.png');
 }
 
 .sekcja-kulinarna {
    background-color: #bdb2ff;
 }
+.card.sekcja-kulinarna .card-image img {
+   content: url('../img/sekcja-kulinarna.png');
+}
 
 .sekcja-kosmetyczna {
    background-color: #ffc6ff;
 }
+.card.sekcja-kosmetyczna .card-image img {
+   content: url('../img/sekcja-kosmetyczna.png');
+}
 
 .sekcja-brydza {
    background-color: #ffdbaa;
+}
+.card.sekcja-brydza .card-image img {
+   content: url('../img/sekcja-brydza.png');
 }
 
 .ws-plan {
